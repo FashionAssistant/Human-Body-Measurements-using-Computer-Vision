@@ -6,38 +6,7 @@ import os
 import utils
 
 DATA_DIR = "data"
-# loading data: file_list, vertex, mean, std
-#def obj2npy(label="male"):
-#    
-#  OBJ_DIR = os.path.join(DATA_DIR, "obj")
-#  
-#  obj_file_dir = os.path.join(OBJ_DIR, label)
-##  print("File directory = ",obj_file_dir)
-#  file_list = os.listdir(obj_file_dir)
-#
-#  # load original data
-#  vertex = []
-#  for i, obj in enumerate(file_list):
-#    sys.stdout.write('\r>> Converting %s body %d\n'%(label, i))
-#    sys.stdout.flush()
-#    f = open(os.path.join(obj_file_dir, obj), 'r')
-#    j = 0
-#    for line in f:
-#      if line[0] == '#':
-#        continue
-#      elif "v " in line:
-#        line.replace('\n', ' ')
-#        tmp = list(map(float, line[1:].split()))
-#        vertex.append(tmp)
-#        j += 1
-#      else:
-#        break
-# 
-#  vertex = np.array(vertex).reshape(len(file_list), utils.V_NUM, 3)#utils.V_NUM
-##  print("Vertex are of type = ",type(vertex)) 
-##  print("vertex = ",vertex)
-#
-#  return vertex
+
 
 
         
